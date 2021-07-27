@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="hint">#DBE6FD</color>
+    <color name="btnGreen">#7ac512</color>
+    <color name="btnGreenPressed">#5f990e</color>
+    <color name="btnDarkBlue">#1082cd</color>
+    <color name="btnDarkBluePressed">#0C6199</color>
+    <color name="btnDisabled">#ACACAC</color>
+    <color name="btnBlue">#00c6fb</color>
+    <color name="btnBluePressed">#007899</color>
+
+    <color name="background">#f8fcff</color>
+    <color name="loginBackground">#097abe</color>
+    <color name="colorPrimary">#00c6fb</color>
+    <color name="colorPrimaryDark">#1082cd</color>
+    <color name="colorAccent">#7ac512</color>
+</resources>

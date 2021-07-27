@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Payment</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="version">v%s (%d)</string>
+    <string name="logout">Logout</string>
+    <string name="cancel">Cancel</string>
+    <string name="login">Login</string>
+    <string name="logo">Your\nPayments\nIn reliable hands</string>
+    <string name="payments">Your Payments</string>
+    <string name="register">Register</string>
+
+</resources>

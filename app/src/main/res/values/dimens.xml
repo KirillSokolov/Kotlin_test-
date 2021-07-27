@@ -1,0 +1,21 @@
+<resources>
+
+    <dimen name="small_margin">4dp</dimen>
+    <dimen name="normal_margin">16dp</dimen>
+    <dimen name="medium_margin">32dp</dimen>
+    <dimen name="large_margin">96dp</dimen>
+
+    <dimen name="small_text">12sp</dimen>
+    <dimen name="medium_text">14sp</dimen>
+    <dimen name="normal_text">15sp</dimen>
+    <dimen name="title_text">16sp</dimen>
+    <dimen name="large_text">20sp</dimen>
+
+    <dimen name="btnTextSize">16sp</dimen>
+    <dimen name="loginIcon">14dp</dimen>
+    <dimen name="btnHeight">40dp</dimen>
+    <dimen name="btnCornerRadius">6dp</dimen>
+
+    <integer name="transitionAnimDuration">450</integer>
+    <integer name="slideDuration">400</integer>
+</resources>
