@@ -10,10 +10,10 @@ import java.util.concurrent.ExecutorService
 import java.util.concurrent.Executors
 import java.util.concurrent.FutureTask
 
-
-open class BaseApplication  : Application() {
+class BaseApplication  : Application() {
 
     var executor: ExecutorService = Executors.newFixedThreadPool(1)
+
 
     override fun onCreate() {
         super.onCreate()
@@ -25,6 +25,8 @@ open class BaseApplication  : Application() {
     }
 
     companion object {
+        private const val dbName:String = "DB_NAME"
+
         private var instance: BaseApplication? = null
 
         private fun getApplicationContext() : Context {
@@ -32,10 +34,9 @@ open class BaseApplication  : Application() {
         }
 
         fun getDataBase() : Database {
-
             return Room.databaseBuilder(
                 getApplicationContext(),
-                Database::class.java, "DB_NAME").build()
+                Database::class.java, dbName).build()
         }
 
         fun getPreferenceHelper() : PreferencesHelper {

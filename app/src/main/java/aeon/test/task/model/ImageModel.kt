@@ -3,9 +3,9 @@ package aeon.test.task.model
 import aeon.test.task.data.dao.UserDao
 import aeon.test.task.data.tables.User
 import aeon.test.task.restapi.response.BaseData
-import aeon.test.task.restapi.response.UserData
+import aeon.test.task.restapi.response.ImageData
 
-class UserModel : BaseModel(), Model {
+class ImageModel : BaseModel(), Model {
     var userDao: UserDao? = null
     lateinit var user: User
 
@@ -23,8 +23,8 @@ class UserModel : BaseModel(), Model {
         userDao?.update(user)
     }
 
-    override fun convertFromResponse(data: BaseData) {
-        val userData = (data as UserData)
+    override fun convertFromResponse(data: List<BaseData>) {
+        val userData = (data as ImageData)
         user = User(userData.getToken()!!)
     }
 }

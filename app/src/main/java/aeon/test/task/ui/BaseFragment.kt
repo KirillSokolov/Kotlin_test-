@@ -1,5 +1,6 @@
 package aeon.test.task.ui
 
+import aeon.test.task.restapi.ImageService
 import aeon.test.task.restapi.LoginService
 import aeon.test.task.restapi.ServiceGenerator
 import aeon.test.task.viewmodel.ServiceViewModel
@@ -18,7 +19,7 @@ open class BaseFragment : Fragment() {
         return ViewModelProvider(
             this, ViewModelFactory(
                 ServiceGenerator().createService(
-                    LoginService::class.java, context
+                    ImageService::class.java, context
                 )
             )
         ).get(ServiceViewModel::class.java)

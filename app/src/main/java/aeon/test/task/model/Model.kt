@@ -5,5 +5,5 @@ import aeon.test.task.restapi.response.BaseData
 interface Model {
     fun create()
     fun update()
-    fun convertFromResponse(data: BaseData)
+    fun convertFromResponse(data: List<BaseData>)
 }

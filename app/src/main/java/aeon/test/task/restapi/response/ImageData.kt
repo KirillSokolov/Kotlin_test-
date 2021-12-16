@@ -2,7 +2,7 @@ package aeon.test.task.restapi.response
 
 import com.google.gson.annotations.SerializedName
 
-class UserData : BaseData() {
+class ImageData : BaseData() {
     @SerializedName("id")
     private val id: String? = null
 

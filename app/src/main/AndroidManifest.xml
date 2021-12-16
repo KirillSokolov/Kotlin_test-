@@ -15,6 +15,7 @@
         android:theme="@style/Theme.AEON_test_task">
         <activity android:name="aeon.test.task.ui.StartActivity"
             android:screenOrientation="unspecified"
+            android:exported="true"
             android:theme="@style/LoginTheme"
             android:windowSoftInputMode="stateUnchanged">
         <intent-filter>
